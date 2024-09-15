@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(91, 91, 104);  
+}
+
+h1{ 
+   font-size: 70px;
+   display: flex;
+   justify-content: center; 
+   color: rgb(14, 48, 38); 
+   border-bottom: 3px solid rgb(75, 25, 25);
+}
+
+input{
+    color: black;
+    height: 40px;
+    width: 250px;
+   margin-left: 20px;
+    margin-top: 100px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+input::placeholder{
+    color: rgb(241, 246, 247);
+    font-size: 20px;
+    padding-left: 10px;
+}
+.ul-list{
+    margin-top: 20px;
+    margin-left: calc(50%);
+    height: auto;
+    width: 300px;
+    border: 3px solid black;
+}
+
+#btn{
+    height: 40px;
+    width: 120px;
+    border: 3px solid black;
+    color: rgb(130, 14, 14);
+    font-size: 20px;
+  transition: background-color linear 1s;
+  margin-left: 30px;
+}
+#btn:hover{
+    color: white;
+    background-color: rgb(0, 41, 46);
+}
+
+.div-main{
+    position: absolute;
+    top: 130px;
+    height: auto;
+    width: auto;
+      display: inline-block;
+      margin-left: 200px;
+      border: 3px solid rgb(199, 196, 196);
+}
+.div-main ol{
+    height: auto;
+    margin-left: 30px;
+    width: auto;
+}
+
+.div-main ol li{
+    color: rgb(10, 7, 10);
+    font-size: 20px;
+    line-height: 30px; 
+}
+
+.div-main ol li button{
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+  border: 3px solid blue;
+    color: black;
+    font-size: 20px;
+}
+.div-main ol li button:hover{
+    background-color: aqua;
+}
